@@ -9746,7 +9746,7 @@ class Mpdf implements \Psr\Log\LoggerAwareInterface
 
 			if (isset($this->saveHTMLFooter[$n][$OE])) {
 
-				$html = $this->saveHTMLFooter[$this->page][$OE]['html'];
+				$html = $this->saveHTMLFooter[$n][$OE]['html'];
 
 				$this->lMargin = $this->saveHTMLFooter[$n][$OE]['ml'];
 				$this->rMargin = $this->saveHTMLFooter[$n][$OE]['mr'];
